@@ -1,4 +1,9 @@
 rm(list=ls())
+
+# NOTE: rPorta is in the process of being updated on CRAN. Please use the following
+#       command to install the package locally from the supplied tar.gz file
+install.packages("rPorta_0.1-93.tar.gz",repos=NULL,type="source")
+
 source("ABF.R")
 
 ### Figure 4 example
